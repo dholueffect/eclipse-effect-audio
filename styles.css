@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: hsl(180, 55%, 25%);
+  }
+  
+  .circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin: -75px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+  }
+  
+  #sun {
+    background: #ffff77;
+    box-shadow: 2px -1px 50px 20px #e6ff77;
+  }
+  
+  #moon {
+    background: #222;
+    left: 50%;
+  }
